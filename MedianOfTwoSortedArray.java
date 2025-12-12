@@ -10,6 +10,7 @@ Explanation: merged array = [1,2,3] and median is 2.*/
 
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        
         int[] ans = merge(nums1, nums2);
 
         if(ans.length %2 == 0){
