@@ -12,6 +12,7 @@ Explanation: n = 3 since there are 3 numbers, so all numbers are in the range [0
 
 class Solution {
     public int missingNumber(int[] nums) {
+        
         int range = nums.length;
 
         int actualSum = (range * (range + 1)/2); // formula - (n*(n+1)/2)
