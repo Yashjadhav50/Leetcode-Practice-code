@@ -31,7 +31,6 @@ class Solution {
                 smax = nums[i];
             }
         }
-
         if(smax*2 <= max){
             return Indmax;
         }else{
