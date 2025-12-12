@@ -10,6 +10,7 @@ After sorting, it becomes [0,1,9,16,100].*/
 
 class Solution {
     public int[] sortedSquares(int[] nums) {
+        
         int[] ans = new int[nums.length];
 
         int start = 0;
