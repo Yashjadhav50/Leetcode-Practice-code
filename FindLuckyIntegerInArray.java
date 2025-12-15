@@ -15,7 +15,6 @@ Example 3:
 Input: arr = [2,2,2,3,3]
 Output: -1
 Explanation: There are no lucky numbers in the array.*/
-
 class Solution {
     public int findLucky(int[] arr) {
         HashMap<Integer,Integer> hm = new HashMap<>();
