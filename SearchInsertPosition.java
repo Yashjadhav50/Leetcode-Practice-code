@@ -13,6 +13,7 @@ Output: 1
 Example 3:
 Input: nums = [1,3,5,6], target = 7
 Output: 4 */
+
 class Solution {
     public int searchInsert(int[] nums, int target) {
         int start = 0;
