@@ -6,8 +6,8 @@ void push(int x) Pushes element x to the top of the stack.
 int pop() Removes the element on the top of the stack and returns it.
 int top() Returns the element on the top of the stack.
 boolean empty() Returns true if the stack is empty, false otherwise.
-Notes:
 
+Notes:
 You must use only standard operations of a queue, which means that only push to back, 
 peek/pop from front, size and is empty operations are valid.
 Depending on your language, the queue may not be supported natively. 
