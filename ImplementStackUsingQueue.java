@@ -38,7 +38,6 @@ class MyStack {
         helper = new LinkedList<>();
     }
 
-
     public void push(int x) {
         //moving all elements from main to helper
         while(main.size()>0){
