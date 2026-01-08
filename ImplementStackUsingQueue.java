@@ -37,7 +37,7 @@ class MyStack {
         main = new LinkedList<>();
         helper = new LinkedList<>();
     }
-    
+
 
     public void push(int x) {
         //moving all elements from main to helper
