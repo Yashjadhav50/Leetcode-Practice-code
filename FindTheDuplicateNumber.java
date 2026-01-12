@@ -13,6 +13,7 @@ Output: 3
 Example 3:
 Input: nums = [3,3,3,3,3]
 Output: 3 */
+
 class Solution {
     public int findDuplicate(int[] nums) {
 
