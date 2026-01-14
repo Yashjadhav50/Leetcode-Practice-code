@@ -22,7 +22,7 @@ Output: 1 */
 
 class Solution {
     public int lastStoneWeight(int[] stones) {
-    
+
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
 
         for(int ele : stones){
